@@ -10,6 +10,14 @@ nav .ms_logo{
     width: 170px;
 }
 
+/* Jumbotron */
+header .ms_jumbotron{
+    background-image: url("../img/ms-jumbo.jpg");
+    background-size: cover;
+    /* Test */
+    height: 550px;
+}
+
 /* HEADER END */
 
 
