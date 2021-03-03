@@ -5,11 +5,67 @@ body{
 
 /* HEADER */
 /* Nav */
-nav .ms_logo{
-    display: block;
-    width: 170px;
+nav{
+    padding: 10px 0px;
 }
 
+/* Logo */
+nav .ms_logo{
+    display: block;
+    width: 130px;
+}
+nav .ms_nav_menu ul{
+    list-style-type: none;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+nav .ms_nav_menu ul li{
+    display: inline;
+    margin-right: 10px;
+}
+nav .ms_nav_menu ul li a{
+    line-height: 26px;
+    color: #061f50;
+    font-weight: 600;
+}
+nav .ms_nav_menu ul li a:hover{
+    color: #0d72ff;
+    text-decoration: none;
+}
+nav .ms_nav_menu i{
+    margin-left: 2px;
+}
+.nav_center{
+    padding-left: 65px;
+}
+
+/* Nav right */
+nav .nav_right{
+    text-align: right;
+}
+
+/* Nav button */
+nav .nav_right .nav_btn{
+    display: inline-block;
+    
+}
+nav .nav_right .nav_btn a{
+    color:  #0d72ff;
+    border: 1px solid #0d72ff;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+nav .nav_right .nav_btn a:hover{
+    background-color:#0d72ff; 
+    color: white;
+}
+
+/* Burger menu */
+.burger_menu{
+    text-align: right;
+    font-size: 26px;
+    color: #0d72ff;
+}
 /* Jumbotron */
 header .ms_jumbotron{
     background-image: url("../img/ms-jumbo.jpg");
