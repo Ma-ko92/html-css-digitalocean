@@ -1,0 +1,24 @@
+/* COMMON */
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+/* HEADER */
+/* Nav */
+nav .ms_logo{
+    display: block;
+    width: 170px;
+}
+
+/* HEADER END */
+
+
+/* MEDIA QUERY */
+
+/* HEADER */
+/* Nav */
+@media all and (max-width: 991px) {
+    nav .ms_logo{
+        width: 200px;
+    }
+}
