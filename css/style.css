@@ -213,11 +213,22 @@ p{
 }
 .manage_menu ul li a{
     color: #748099;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 /* Contents */
-.contents_left p{
+.contents{
+    margin-bottom: 20px;
+}
+.contents img{
+    margin-bottom: 10px;
+}
+.contents h5{
+    color: #152c5b;
+    font-weight: 700;
+    font-size: 15px;
+}
+.contents p{
     text-align: left;
 }
 
