@@ -76,6 +76,14 @@ header .ms_jumbotron{
 header .ms_jumbotron .ms_text{
     color: white;
 }
+header .ms_jumbotron .ms_text h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+header .ms_jumbotron .ms_text p{
+    font-size: 18px;
+    opacity: 0.7;
+}
 
 /* Form section */
 header .ms_jumbotron .form_wrapper{
@@ -90,6 +98,7 @@ header .ms_jumbotron .form_wrapper .heading_form h3{
 }
 header .ms_jumbotron .form_wrapper .heading_form h3:last-child{
     color: #016bff;
+    margin-top: 0;
 }
 .content_form input{
     width:100%;
@@ -119,9 +128,7 @@ header .ms_jumbotron .form_wrapper .account_btn input:hover{
 /* Google account section */
 header .ms_jumbotron .form_wrapper .google_btn img{
     width:20px;
-    position: absolute;
-    left: 10px;
-    bottom: 5px;
+    float: left;
 }
 header .ms_jumbotron .form_wrapper .google_btn{
     position: relative;
@@ -139,6 +146,7 @@ header .ms_jumbotron .form_wrapper .google_btn:hover{
 .therms{
     text-align: center;
     margin-top:10px;
+    font-size: 10px;
 }
 .therms a{
     text-decoration-line:underline;
