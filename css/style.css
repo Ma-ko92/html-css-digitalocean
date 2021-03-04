@@ -66,14 +66,83 @@ nav .nav_right .nav_btn a:hover{
     font-size: 26px;
     color: #0d72ff;
 }
+
 /* Jumbotron */
 header .ms_jumbotron{
     background-image: url("../img/ms-jumbo.jpg");
     background-size: cover;
-    /* Test */
-    height: 550px;
+    padding: 50px 0px;
+}
+header .ms_jumbotron .ms_text{
+    color: white;
 }
 
+/* Form section */
+header .ms_jumbotron .form_wrapper{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+header .ms_jumbotron .form_wrapper .heading_form h3{
+    text-align: center;
+    color:#152c5b;
+    font-weight: 800;
+}
+header .ms_jumbotron .form_wrapper .heading_form h3:last-child{
+    color: #016bff;
+}
+.content_form input{
+    width:100%;
+    margin: 6px 0px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    border: 1px solid #e5e8ed;;
+}
+.content_form input::placeholder{
+    color: #1a1a1a;
+}
+
+/* Create your account section */
+header .ms_jumbotron .form_wrapper .account_btn input{
+    width: 100%;
+    background-color: #579aff;
+    color: white;
+    margin: 6px 0px;
+    padding: 5px 0px;
+    border-radius: 3px;
+    border: 1px solid #579aff;
+}
+header .ms_jumbotron .form_wrapper .account_btn input:hover{
+    background-color: #0046a8;
+}
+
+/* Google account section */
+header .ms_jumbotron .form_wrapper .google_btn img{
+    width:20px;
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+}
+header .ms_jumbotron .form_wrapper .google_btn{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    padding: 5px 5px;
+    border-radius: 3px;
+    border: 1px solid #e5e8ed;
+    box-shadow: 1px 1px lightgray;
+}
+header .ms_jumbotron .form_wrapper .google_btn:hover{
+    color: black;
+}
+/* Therms of service */
+.therms{
+    text-align: center;
+    margin-top:10px;
+}
+.therms a{
+    text-decoration-line:underline;
+}
 /* HEADER END */
 
 
