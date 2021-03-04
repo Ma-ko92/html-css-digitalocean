@@ -236,16 +236,20 @@ header .ms_jumbotron .form_wrapper .google_btn:hover{
 /* Slide Section */
 .slide_section{
     background-color: #f3f5f9;
+    padding-top: 40px;
 }
+.slide_section h2{
+    padding-bottom: 10px;
+}
+
+/* Wrapper */
 .wrapper_small{
     text-align: center;
+    padding: 40px 0px;
 }
 .wrapper_small img{
     width: 50%;
     margin: auto;
-}
-.slide_contents{
-    padding: 30px 0px;
 }
 .wrapper_small .slide_contents a{
     margin: 0px 20px;
@@ -255,15 +259,51 @@ header .ms_jumbotron .form_wrapper .google_btn:hover{
 .wrapper_small .slide_contents a:first-child{
     color: #748099;;
 }
+
+/* Slide bottom */
+.slide_bottom{
+    padding: 10px 0px;
+}
+.slide_bottom p{
+    color: #748099;
+    font-size: 10px;
+    font-weight: 700;
+}
+.slide_bottom ul{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
+.slide_bottom ul li{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 1px solid #3a91fd;
+    border-radius: 50%;
+}
+.slide_bottom ul li:first-child{
+    background-color:#004aff ;
+}
 /* MAIN END*/
 
 
 /* MEDIA QUERY */
 
 /* HEADER */
+
 /* Nav */
 @media all and (max-width: 991px) {
     nav .ms_logo{
         width: 200px;
+    }
+}
+
+/* MAIN */
+
+/* Slide section */
+@media all and (max-width: 767px) {
+    .wrapper_small .slide_contents a{
+        display: none;
     }
 }
