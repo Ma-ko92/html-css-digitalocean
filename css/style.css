@@ -16,7 +16,9 @@ body{
     font-weight: 700;
     color:#152c5b;
 }
+
 /* HEADER */
+
 /* Nav */
 nav{
     padding: 10px 0px;
@@ -235,8 +237,24 @@ header .ms_jumbotron .form_wrapper .google_btn:hover{
 .slide_section{
     background-color: #f3f5f9;
 }
-
-
+.wrapper_small{
+    text-align: center;
+}
+.wrapper_small img{
+    width: 50%;
+    margin: auto;
+}
+.slide_contents{
+    padding: 30px 0px;
+}
+.wrapper_small .slide_contents a{
+    margin: 0px 20px;
+    font-size: 30px;
+    color:#152c5b;
+}
+.wrapper_small .slide_contents a:first-child{
+    color: #748099;;
+}
 /* MAIN END*/
 
 
