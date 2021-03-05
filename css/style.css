@@ -311,7 +311,13 @@ header .ms_jumbotron .form_wrapper .google_btn:hover{
     color: white;
 }
 .wrapper_grid{
+    margin-bottom: 20px;
     padding-right: 10px;
+}
+.grid{
+    font-size: 12px;
+    padding: 0px 10px;
+    overflow: hidden;
 }
 .customers_section h2{
     text-align: center;
@@ -329,13 +335,39 @@ header .ms_jumbotron .form_wrapper .google_btn:hover{
     border-bottom: 1px solid white;
 }
 
-.wrapper_grid{
+/* Development section */
+.align{
+    display: inline-block;
+}
+.box_area{
+    display: inline-block;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 3px;
+    width: 45%;
+    margin-bottom: 10px;
+}
+.box_area img{
+    margin-top: 40px;
     margin-bottom: 20px;
 }
-.grid{
-    font-size: 12px;
-    padding: 0px 10px;
+.box_area p:nth-child(3) {
+    color: #152c5b;
+    font-weight: 700;
 }
+.box_area p:nth-child(4) {
+    color: #152c5b;
+    font-weight: 600;
+    line-height: 0px;
+}
+.wrapper_small .slide_contents .box_area a{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    color: #00d7d2;
+    font-size: 14px;
+}
+
 
 /* MAIN END*/
 
