@@ -454,24 +454,37 @@ header .ms_jumbotron .form_wrapper .google_btn:hover{
 }
 /* Box message */
 .box_msg{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    bottom: 5%;
+    right: 120%;
+
     width: 250px;
     color: #112857;
     background-color: white;
-    border: 1px solid #112857;
     font-size: 12px;
     font-weight: 600;
     padding: 5px 10px;
     border-radius: 5px;
 }
+.box_msg::after{
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent transparent white;
+}
+.box_bot:hover .box_msg{
+    visibility: visible;
+}
 .box_msg p{
     margin: 0;
 }
-.ms_chevron {
-    position: absolute;
-    top: 10px;
-    right: -8px;
-    font-size: 30px;
-}
+
 /* Bot */
 .box_bot{
     height:50px;
