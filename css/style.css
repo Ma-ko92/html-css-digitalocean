@@ -468,6 +468,7 @@ header .ms_jumbotron .form_wrapper .google_btn:hover{
     padding: 5px 10px;
     border-radius: 5px;
 }
+/* Arrow */
 .box_msg::after{
     content: "";
     position: absolute;
@@ -560,5 +561,25 @@ header .ms_jumbotron .form_wrapper .google_btn:hover{
 @media all and (max-width: 767px) {
     .wrapper_small .slide_contents a{
         display: none;
+    }
+}
+
+/* FOOTER */
+@media all and (max-width: 990px) {
+    .box_bot{
+        left: 25px;
+    }
+    .box_msg{
+        left: 120%;
+    }
+    .box_msg::after{
+        content: "";
+        position: absolute;
+        top: 60%;
+        left: -6%;
+        margin-top: -5px;
+        border-width: 8px;
+        border-style: solid;
+        border-color: transparent white transparent transparent;
     }
 }
