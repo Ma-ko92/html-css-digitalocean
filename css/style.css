@@ -447,45 +447,68 @@ header .ms_jumbotron .form_wrapper .google_btn:hover{
 }
 
 /* Shark bot */
-.square{
-    height:100px;
-    width:100px;
+.nav_bot{
+    position: fixed;
+    bottom: 26px;
+    right: 90px;;
+}
+/* Box message */
+.box_msg{
+    width: 250px;
+    color: #112857;
+    background-color: white;
+    border: 1px solid #112857;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.box_msg p{
+    margin: 0;
+}
+.ms_chevron {
+    position: absolute;
+    top: 10px;
+    right: -8px;
+    font-size: 30px;
+}
+/* Bot */
+.box_bot{
+    height:50px;
+    width:50px;
     background-color:#006aff;
     border-radius:5px;
     position:fixed;
     right: 25px;
     bottom: 25px;
-    display: flex;
 }
-.square img{
-    width: 100px;
+.box_bot img{
+    width: 50px;
     margin-top:20px;
     animation: move 1.5s ease-in-out infinite alternate;
     animation-delay: -0.4s;
-    z-index: 1;
-}
-  
+} 
 .circle{
-    height:50px;
-    width:50px;
+    height:26px;
+    width:26px;
     background-color:white;
     border-radius:50%;
     position:absolute;
-    bottom:65px;
-    left:65px;
-}
-  
+    bottom:35px;
+    left:35px;
+} 
 .circle_sm{
-    height:35px;
-    width:35px;
+    height:20px;
+    width:20px;
     background-color:red;
     border-radius:50%;
     position:absolute;
-    bottom:55%;
-    left:90%;
+    bottom:56%;
+    left:95%;
     transform: translate(-50%, -50%);
 }
 .circle_sm span{
+    font-size: 10px;
     position: absolute;
     top:50%;
     left: 50%;
