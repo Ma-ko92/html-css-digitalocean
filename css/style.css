@@ -446,10 +446,64 @@ header .ms_jumbotron .form_wrapper .google_btn:hover{
     opacity: 0.6;
 }
 
-
-
+/* Shark bot */
+.square{
+    height:100px;
+    width:100px;
+    background-color:tomato;
+    border-radius:5px;
+    position:fixed;
+    right: 25px;
+    bottom: 25px;
+    display: flex;
+}
+.square img{
+    width: 100px;
+    margin-top:20px;
+    animation: move 1.5s ease-in-out infinite alternate;
+    animation-delay: -0.4s;
+}
+  
+.circle{
+    height:50px;
+    width:50px;
+    background-color:white;
+    border-radius:50%;
+    position:absolute;
+    bottom:65px;
+    left:65px;
+}
+  
+.circle_sm{
+    height:35px;
+    width:35px;
+    background-color:red;
+    border-radius:50%;
+    position:absolute;
+    bottom:55%;
+    left:90%;
+    transform: translate(-50%, -50%);
+}
+.circle_sm span{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /* FOOTER END*/
+
+/* Extra */
+@keyframes move {
+   
+    from {
+      transform:translateY(-35%)
+    }
+
+    to{
+      transform:translateY(35%)
+    }
+}
 
 
 /* MEDIA QUERY */
