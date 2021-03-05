@@ -327,7 +327,14 @@ header .ms_jumbotron .form_wrapper .google_btn:hover{
 }
 .underline{
     border-bottom: 1px solid white;
-    
+}
+
+.wrapper_grid{
+    margin-bottom: 20px;
+}
+.grid{
+    font-size: 12px;
+    padding: 0px 10px;
 }
 
 /* MAIN END*/
