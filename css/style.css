@@ -336,9 +336,6 @@ header .ms_jumbotron .form_wrapper .google_btn:hover{
 }
 
 /* Development section */
-.align{
-    display: inline-block;
-}
 .box_area{
     display: inline-block;
     vertical-align: middle;
@@ -368,7 +365,22 @@ header .ms_jumbotron .form_wrapper .google_btn:hover{
     font-size: 14px;
 }
 
-
+/* Account section */
+.ms_btn{
+    text-align: center;
+    padding: 20px 0px;
+}
+.ms_btn a{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 7px 10px;
+    color: #00d7d2;
+    font-weight: 600;
+}
+.ms_btn a:hover{
+    text-decoration: none;
+}
 /* MAIN END*/
 
 
