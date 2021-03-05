@@ -219,6 +219,7 @@ header .ms_jumbotron .form_wrapper .google_btn:hover{
 .manage_menu ul{
     list-style-type: none;
     padding-left: 7px;
+    margin-bottom: 20px;
 }
 .manage_menu ul li{
     margin-bottom: 10px;
