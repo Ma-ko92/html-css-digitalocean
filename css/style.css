@@ -383,6 +383,35 @@ header .ms_jumbotron .form_wrapper .google_btn:hover{
 }
 /* MAIN END*/
 
+/* FOOTER */
+.footer_bg{
+    background-color: #031c4e;
+    padding: 35px 0px;
+    color: white;
+}
+.left_contents{
+    opacity: 0.6;
+}
+.left_contents img{
+    width:40px;
+    padding-bottom: 7px;
+}
+.left_contents p{
+    font-size: 12px;
+}
+.left_contents p:nth-child(3){
+    font-size: 10px;
+    line-height: 0px;
+    opacity: 0.4;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+/* FOOTER END*/
+
 
 /* MEDIA QUERY */
 
