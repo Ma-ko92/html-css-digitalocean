@@ -565,6 +565,7 @@ header .ms_jumbotron .form_wrapper .google_btn:hover{
 }
 
 /* FOOTER */
+/* Shark bot */
 @media all and (max-width: 990px) {
     .box_bot{
         left: 25px;
