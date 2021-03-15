@@ -95,3 +95,76 @@ a{
     font-size: 18px;
     opacity: 0.5;
 }
+
+/* Form section */
+.form_wrapper{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form_wrapper .heading_form h3{
+    text-align: center;
+    color:#152c5b;
+    font-weight: 800;
+}
+
+.form_wrapper .heading_form h3:last-child{
+    color: #016bff;
+    margin-top: 0;
+}
+
+.content_form input{
+    width:100%;
+    margin: 6px 0px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    border: 1px solid #e5e8ed;;
+}
+
+.content_form input::placeholder{
+    color: #1a1a1a;
+}
+
+/* Create your account section */
+.form_wrapper .account_btn input{
+    width: 100%;
+    background-color: #579aff;
+    color: white;
+    margin: 6px 0px;
+    padding: 5px 0px;
+    border-radius: 3px;
+    border: 1px solid #579aff;
+}
+.form_wrapper .account_btn input:hover{
+    background-color: #0046a8;
+}
+
+/* Google account section */
+.form_wrapper .google_btn img{
+    width:20px;
+    float: left;
+}
+.form_wrapper .google_btn{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    padding: 5px 5px;
+    border-radius: 3px;
+    border: 1px solid #e5e8ed;
+    box-shadow: 1px 1px lightgray;
+}
+
+.form_wrapper .google_btn:hover{
+    color: black;
+}
+
+/* Therms of service */
+.therms{
+    text-align: center;
+    margin-top:10px;
+    font-size: 10px;
+}
+.therms a{
+    text-decoration-line:underline;
+}
