@@ -168,3 +168,17 @@ a{
 .therms a{
     text-decoration-line:underline;
 }
+
+/* HEADER END */
+
+/* MAIN */
+.sponsor_section{
+    text-align: center;
+    background-color: #f3f5f9;
+    padding: 30px 0px;
+}
+
+.sponsor_section h5{
+    font-size: 15px;
+    color: #748099;
+}
