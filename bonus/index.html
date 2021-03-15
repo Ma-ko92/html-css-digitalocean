@@ -7,6 +7,11 @@
 
     <!-- Title -->
     <title>DigitalOcean Bonus</title>
+    <link rel="icon" href="img/logo-small.svg">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
@@ -15,14 +20,19 @@
 <body>
     <!-- Header -->
     <header>
+        <!-- Container -->
         <div class="container">
+            <!-- Wrapper Flexbox -->
             <div class="wrapper_flex">
-                
-                    <img src="img/logo.png" alt="logo">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="#"><img src="img/logo.png" alt="logo"></a>
+                </div>
                
-    
-                <div>
-                    <ul class="menu menu_center">
+                <!-- Menu nav -->
+                <div class="menu">
+                    <!-- Center -->
+                    <ul class="menu_center">
                         <li>
                             <a href="#">Products<i class="fas fa-chevron-down"></i></a>
                         </li>
@@ -38,8 +48,9 @@
                     </ul>
                 </div>
     
-                <div>
-                    <ul class="menu menu_right">
+                <div class="menu">
+                    <!-- Right -->
+                    <ul class="menu_right">
                         <li>
                            <a href="#">Docs</a>
                         </li>
@@ -49,12 +60,35 @@
                         <li>
                             <a href="#">Login</a>
                         </li>
+                        <!-- Log-in button -->
                         <li>
                             <div class="nav_btn">
                                 <a href="#">Sign Up</a>
                             </div>
                         </li>
                     </ul>
+                </div>
+                <!-- Menu nav End -->
+            </div>
+            <!-- Wrapper Flexbox end -->
+        </div>
+        <!-- Container end -->
+
+        <!-- Jumbotron -->
+        <div class="jumbotron">
+            <div class="container">
+                <div class="wrapper_flex">
+                    <div class="main_heading">
+                        <h1>The simplest cloud platform for developers & teams</h1>
+                        <p>Deploy, manage, and scale clouds application faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses,whether you're running one virtual machine or ten thousend.</p>
+                    </div>
+        
+                    <div>
+                        <div class="heading_form">
+                            <h3>Deploy your app in seconds.</h3>
+                            <h3>Get started now.</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

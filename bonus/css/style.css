@@ -7,9 +7,13 @@
 }
 
 /* COMMON */
+body{
+    font-family: 'Inter', sans-serif;
+}
 .container{
     max-width: 1170px;
     margin: auto;
+    padding: 0px 20px;
 }
 
 img{
@@ -24,20 +28,33 @@ a{
 .wrapper_flex{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 20px 0px;
 }
-.wrapper_flex img{
-    width:20%;
+
+/* Logo */
+.logo img{
+    width: 170px;
+}
+
+/* Menu nav */
+.menu ul{
+    display: flex;
+    flex-direction: row;
 }
 .menu li{
-    display: inline-block;
     padding-right: 10px;
 }
 
 .menu li a{
     color: black;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.menu li a:hover{
+    color: #016bff;
 }
 
 .menu li a i{
@@ -45,9 +62,36 @@ a{
     padding-left: 5px;
 }
 
+/* Log-in button */
 .menu .nav_btn a{
     color:  #0d72ff;
     border: 1px solid #0d72ff;
     padding: 5px 8px;
     border-radius: 3px;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url("../img/ms-jumbo.jpg");
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+.jumbotron .wrapper_flex{
+    justify-content: space-around;
+}
+
+.main_heading{
+    color: white;
+    width: 50%;
+}
+
+.main_heading h1{
+    font-size: 50px;
+}
+
+.main_heading p{
+    margin-top: 10px;
+    font-size: 18px;
+    opacity: 0.5;
 }
